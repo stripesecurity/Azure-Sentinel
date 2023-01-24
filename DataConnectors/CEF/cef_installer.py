@@ -33,7 +33,7 @@ import re
 rsyslog_daemon_name = "rsyslog"
 syslog_ng_daemon_name = "syslog-ng"
 omsagent_file_name = "onboard_agent.sh"
-oms_agent_url = "https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/" + omsagent_file_name
+oms_agent_url = "https://raw.githubusercontent.com/stripesecurity/OMS-Agent-for-Linux/master/installer/scripts/" + omsagent_file_name
 help_text = "Optional arguments for the python script are:\n\t-T: for TCP\n\t-U: for UDP which is the default value.\n\t-F: for no facility restrictions.\n\t-p: for changing default port from 25226"
 omsagent_default_incoming_port = "25226"
 daemon_default_incoming_port = "514"
